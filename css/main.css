@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 
@@ -24,6 +24,10 @@ body {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 article {
@@ -60,20 +64,17 @@ blockquote {
   color: #999;
 }
 
-ol {
+article ol {
   padding-left: 1em;
 }
 
-h1 {
-  margin-bottom: 0;
-}
 
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
-}
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   article {
     margin: 0 auto;
@@ -84,12 +85,21 @@ h1 {
 @media only screen and (min-width: 60em) {
 
   html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
   article {
     margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 
 }
