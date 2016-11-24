@@ -40,9 +40,10 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
-article p:last-child {
+article > p:last-child {
   border-bottom: 1px solid #999;
   padding-bottom: 1em;
 }
@@ -59,8 +60,12 @@ blockquote {
   color: #999;
 }
 
-article ol {
+ol {
   padding-left: 1em;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 38em) {
