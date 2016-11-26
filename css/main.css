@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -32,9 +32,14 @@ h1 {
 
 article {
   max-width: 43em;
+  margin: 1em;
 }
 
 article h1 {
+  font-weight: normal;
+}
+
+article p {
   font-weight: normal;
 }
 
@@ -61,10 +66,9 @@ article > p:nth-child(2) {
 
 blockquote {
   max-width: 24em;
-  margin-left: 0;
   color: #555;
   font-size: 1.125rem;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .quote {
@@ -79,11 +83,12 @@ article ol {
 
   html {
     font-size: 110%;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   article {
     margin: 0 auto;
+    padding: 1em;
   }
 
   h1 {
@@ -96,7 +101,7 @@ article ol {
 
   html {
     font-size: 120%;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 
   article {
